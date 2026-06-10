@@ -39,20 +39,55 @@ h1 {
     margin-right: 200px;
 }
 
+@media only screen and (max-width: 1210px) {
+  .BFT_pic {
+      width: 100px;
+      height: 100px;
+      margin-left: 100px;
+      margin-right: 100px;
+  }
+}
+
 #text2 {
     display: flex;
     justify-content: center;
+    margin-right: 23%;
+    font-family: cursive, monospace;
 }
 
 #text3 {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.subheadline {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.listitems {
+    margin-top: 1rem;
 }
 
 #aar {
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
 }
 
 .navbar {
